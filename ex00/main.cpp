@@ -11,8 +11,10 @@ int main() {
 	for (int i = 0; i < 12; i++) {
 		a.attack("Bloe");
 		b.attack("Bla");
-		a.takeDamage(10);
+		a.takeDamage(1);
 		a.beRepaired(2);
+		b.takeDamage(2);
+		b.beRepaired(1);
 	}
 	c.attack("Bloebla");
 	d.attack("Blaaaaaaaa");
