@@ -9,7 +9,6 @@ FragTrap::FragTrap(std::string name) : ClapTrap(name, 100, 100, 30) {
 
 FragTrap::FragTrap() : ClapTrap("Anonymous", 100, 100, 30) {
 	std::cout << "FragTrap constructor called" << std::endl;
-
 }
 
 void FragTrap::highFivesGuys() {
