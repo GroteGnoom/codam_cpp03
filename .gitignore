@@ -6,5 +6,6 @@ my_*
 *.~
 *.dSYM
 tags
-ex00/claptrap
+claptrap
+scavtrap
 *.replace
